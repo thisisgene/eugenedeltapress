@@ -5,6 +5,22 @@ html, body {
   font-family: "Lato", "Helvetica Neue", "Arial", "sans-serif";
   font-size: 16px; }
 
+h2 {
+  font-weight: 300;
+  font-size: 2rem; }
+
+a {
+  text-decoration: none;
+  color: #888; }
+  a:hover {
+    color: #444; }
+
+hr {
+  border: none;
+  border-bottom: 1px solid #eeeeee;
+  width: 60vw;
+  margin: 2rem auto 1rem; }
+
 section#home {
   text-align: center; }
   section#home .main-title {
@@ -32,6 +48,10 @@ section#home {
     margin: 0 auto; }
     section#home .main-container .video-container {
       margin: 1rem auto; }
+    section#home .main-container .live-container {
+      width: 100%; }
+      section#home .main-container .live-container img {
+        width: 100%; }
     section#home .main-container .quote-container {
       display: flex;
       flex-direction: row;
@@ -92,3 +112,6 @@ section#home {
       opacity: 0; }
       section#home .photo-container span:hover {
         opacity: 1; }
+  section#home .footer {
+    color: #888;
+    font-size: .8rem; }
