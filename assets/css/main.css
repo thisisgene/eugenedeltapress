@@ -38,56 +38,108 @@ section#home {
     font-family: "Spectral";
     font-weight: 300;
     color: #444; }
+    @media (max-width: 920px) {
+      section#home .main-par {
+        padding: 0 2rem; } }
   section#home .lang-menu {
     color: #ccc;
     margin: 0 auto 3rem; }
     section#home .lang-menu span {
       margin: 0 .2rem; }
+  section#home .video-container {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0; }
+    section#home .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
   section#home .main-container {
     width: 60vw;
     margin: 0 auto; }
+    @media (max-width: 920px) {
+      section#home .main-container {
+        width: 100vw; } }
     section#home .main-container .video-container {
-      margin: 1rem auto; }
-    section#home .main-container .live-container {
-      width: 100%; }
-      section#home .main-container .live-container img {
-        width: 100%; }
-    section#home .main-container .quote-container {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: flex-start;
-      margin: 3rem auto;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      padding: 1rem;
+      float: none;
+      clear: both;
+      width: 100%;
       position: relative;
-      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-      background: #fff; }
-      section#home .main-container .quote-container .quote-icon {
+      padding-bottom: 56.25%;
+      padding-top: 25px;
+      height: 0; }
+      section#home .main-container .video-container iframe {
         position: absolute;
-        top: -25px;
-        left: 15px;
-        width: 50px;
-        height: 50px;
-        background: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #444; }
-        section#home .main-container .quote-container .quote-icon span {
-          display: inline-block;
-          font-family: "Catamaran";
-          font-size: 4rem;
-          height: 4rem;
-          weight: 300; }
-      section#home .main-container .quote-container .quote {
-        padding: 0 1rem; }
-        section#home .main-container .quote-container .quote p {
-          font-family: "Spectral";
-          font-style: italic; }
-        section#home .main-container .quote-container .quote__left {
-          border-right: 1px solid #ccc; }
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; }
+  section#home .live-container {
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/live_photo1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; }
+    @media (max-width: 920px) {
+      section#home .live-container {
+        background-attachment: local;
+        background-size: contain;
+        background-position: left top;
+        height: 60vw; } }
+  section#home .quote-container {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 3rem auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    position: relative;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    background: #fff; }
+    @media (max-width: 920px) {
+      section#home .quote-container {
+        display: block;
+        width: 80vw; } }
+    section#home .quote-container .quote-icon {
+      position: absolute;
+      top: -25px;
+      left: 15px;
+      width: 50px;
+      height: 50px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #444; }
+      section#home .quote-container .quote-icon span {
+        display: inline-block;
+        font-family: "Catamaran";
+        font-size: 4rem;
+        height: 4rem;
+        weight: 300; }
+    section#home .quote-container .quote {
+      padding: 0 1rem; }
+      section#home .quote-container .quote p {
+        font-family: "Spectral";
+        font-style: italic; }
+      section#home .quote-container .quote__left {
+        border-right: 1px solid #ccc; }
+        @media (max-width: 920px) {
+          section#home .quote-container .quote__left {
+            border-right: none;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 1rem; } }
   section#home .photo-container {
     width: 80vw;
     margin: 1rem auto;
@@ -112,6 +164,16 @@ section#home {
       opacity: 0; }
       section#home .photo-container span:hover {
         opacity: 1; }
+      @media (max-width: 920px) {
+        section#home .photo-container span {
+          padding: 2rem;
+          font-size: 2rem; } }
+  section#home .link-container a {
+    display: block; }
+    @media (max-width: 920px) {
+      section#home .link-container a {
+        font-size: 1.2rem;
+        margin: .4rem; } }
   section#home .footer {
     color: #888;
     font-size: .8rem; }
