@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Spectral:300,300i,400,500,700");
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", "Helvetica Neue", "Arial", "sans-serif";
+  font-size: 16px; }
+
+section#home {
+  text-align: center; }
+  section#home .main-title {
+    font-size: 2.5rem;
+    font-weight: 300; }
+  section#home .main-par {
+    font-family: "Spectral";
+    font-style: italic; }
+  section#home .main-container {
+    width: 60vw;
+    margin: 0 auto; }
