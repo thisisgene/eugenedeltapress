@@ -27,32 +27,60 @@
 		"oAP": "\/.idea\/modules.xml",
 		"oF": 0
 		},
+	"\/.idea\/vcs.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.idea\/vcs.xml",
+		"oF": 0
+		},
 	"\/.idea\/workspace.xml": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.idea\/workspace.xml",
 		"oF": 0
 		},
+	"\/_includes\/de\/head.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/de\/head.html",
+		"oF": 0
+		},
+	"\/_includes\/de\/head.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/_includes\/de\/head.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_includes\/de\/home.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/de\/home.html",
+		"oF": 0
+		},
+	"\/_includes\/de\/home.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/_includes\/de\/home.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/_includes\/head.pug": {
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/_includes\/head.html",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0
-		},
-	"\/_includes\/home.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/home.html",
-		"oF": 0
 		},
 	"\/_includes\/home.pug": {
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/_includes\/home.html",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0
 		},
 	"\/assets\/css\/1-base\/main.sass": {
@@ -112,6 +140,38 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/assets\/js\/script-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/script-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/script.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/script-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/de\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/de\/index.html",
+		"oF": 0
+		},
+	"\/de\/index.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/de\/index.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
