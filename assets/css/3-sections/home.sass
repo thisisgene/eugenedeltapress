@@ -26,6 +26,7 @@ section#home
 
   .lang-menu
     color: #ccc
+    margin: 0 auto 3rem
 
     span
       margin: 0 .2rem
@@ -35,46 +36,76 @@ section#home
     margin: 0 auto
 
 
-  .quote-container
-    display: flex
-    flex-direction: row
-    justify-content: center
-    align-items: flex-start
-    margin: 3rem auto
-    border: 1px solid #ccc
-    border-radius: 10px
-    padding: 1rem
-    position: relative
-    box-shadow: 5px 5px 5px rgba(black, .1)
-    background: #fff
+    .video-container
+      margin: 1rem auto
 
-    .quote-icon
-      position: absolute
-      top: -25px
-      left: 15px
-      width: 50px
-      height: 50px
-      background: #fff
+    .quote-container
       display: flex
+      flex-direction: row
       justify-content: center
-      align-items: center
+      align-items: flex-start
+      margin: 3rem auto
+      border: 1px solid #ccc
+      border-radius: 10px
+      padding: 1rem
+      position: relative
+      box-shadow: 5px 5px 5px rgba(black, .1)
+      background: #fff
 
+      .quote-icon
+        position: absolute
+        top: -25px
+        left: 15px
+        width: 50px
+        height: 50px
+        background: #fff
+        display: flex
+        justify-content: center
+        align-items: center
+
+        color: #444
+        span
+          display: inline-block
+          font:
+            family: "Catamaran"
+            //style: italic
+            size: 4rem
+          height: 4rem
+          weight: 300
+      .quote
+        //margin: 0 1rem
+        //width: 40%
+        padding: 0 1rem
+        p
+          font:
+            family: "Spectral"
+            style: italic
+        &__left
+          border-right: 1px solid #ccc
+
+  .photo-container
+    width: 80vw
+    margin: 1rem auto
+    position: relative
+    img
+      width: 40%
+      margin: .2rem .4rem
+
+    span
+      position: absolute
+      display: inline-block
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      margin: 0 auto
+      padding: 13rem
+      box-sizing: border-box
+      text-align: center
+      font-size: 4rem
+      background: rgba(white, .5)
       color: #444
-      span
-        display: inline-block
-        font:
-          family: "Catamaran"
-          //style: italic
-          size: 4rem
-        height: 4rem
-        weight: 300
-    .quote
-      //margin: 0 1rem
-      //width: 40%
-      padding: 0 1rem
-      p
-        font:
-          family: "Spectral"
-          style: italic
-      &__left
-        border-right: 1px solid #ccc
+      opacity: 0
+
+      &:hover
+        opacity: 1

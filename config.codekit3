@@ -132,6 +132,36 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/img\/press_photo1.jpg": {
+		"ft": 16384,
+		"iS": 105390,
+		"oA": 0,
+		"oAP": "\/assets\/img\/press_photo1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/press_photo2.jpg": {
+		"ft": 16384,
+		"iS": 65232,
+		"oA": 0,
+		"oAP": "\/assets\/img\/press_photo2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/press_photo3.jpg": {
+		"ft": 16384,
+		"iS": 66570,
+		"oA": 0,
+		"oAP": "\/assets\/img\/press_photo3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/js\/jquery-3.2.1.min.js": {
 		"ft": 64,
 		"mi": 1,

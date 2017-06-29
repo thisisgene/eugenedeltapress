@@ -23,45 +23,72 @@ section#home {
     font-weight: 300;
     color: #444; }
   section#home .lang-menu {
-    color: #ccc; }
+    color: #ccc;
+    margin: 0 auto 3rem; }
     section#home .lang-menu span {
       margin: 0 .2rem; }
   section#home .main-container {
     width: 60vw;
     margin: 0 auto; }
-  section#home .quote-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 3rem auto;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 1rem;
-    position: relative;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-    background: #fff; }
-    section#home .quote-container .quote-icon {
-      position: absolute;
-      top: -25px;
-      left: 15px;
-      width: 50px;
-      height: 50px;
-      background: #fff;
+    section#home .main-container .video-container {
+      margin: 1rem auto; }
+    section#home .main-container .quote-container {
       display: flex;
+      flex-direction: row;
       justify-content: center;
-      align-items: center;
-      color: #444; }
-      section#home .quote-container .quote-icon span {
-        display: inline-block;
-        font-family: "Catamaran";
-        font-size: 4rem;
-        height: 4rem;
-        weight: 300; }
-    section#home .quote-container .quote {
-      padding: 0 1rem; }
-      section#home .quote-container .quote p {
-        font-family: "Spectral";
-        font-style: italic; }
-      section#home .quote-container .quote__left {
-        border-right: 1px solid #ccc; }
+      align-items: flex-start;
+      margin: 3rem auto;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 1rem;
+      position: relative;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+      background: #fff; }
+      section#home .main-container .quote-container .quote-icon {
+        position: absolute;
+        top: -25px;
+        left: 15px;
+        width: 50px;
+        height: 50px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #444; }
+        section#home .main-container .quote-container .quote-icon span {
+          display: inline-block;
+          font-family: "Catamaran";
+          font-size: 4rem;
+          height: 4rem;
+          weight: 300; }
+      section#home .main-container .quote-container .quote {
+        padding: 0 1rem; }
+        section#home .main-container .quote-container .quote p {
+          font-family: "Spectral";
+          font-style: italic; }
+        section#home .main-container .quote-container .quote__left {
+          border-right: 1px solid #ccc; }
+  section#home .photo-container {
+    width: 80vw;
+    margin: 1rem auto;
+    position: relative; }
+    section#home .photo-container img {
+      width: 40%;
+      margin: .2rem .4rem; }
+    section#home .photo-container span {
+      position: absolute;
+      display: inline-block;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      padding: 13rem;
+      box-sizing: border-box;
+      text-align: center;
+      font-size: 4rem;
+      background: rgba(255, 255, 255, 0.5);
+      color: #444;
+      opacity: 0; }
+      section#home .photo-container span:hover {
+        opacity: 1; }
